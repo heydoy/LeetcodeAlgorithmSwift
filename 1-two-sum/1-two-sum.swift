@@ -8,7 +8,7 @@ class Solution {
             for j in 0..<size-i {
                 let second = nums[j]
                 if first + second == target {
-                    return [size-i, j] 
+                    return [j, size-i] 
                 } 
             }
         } 
