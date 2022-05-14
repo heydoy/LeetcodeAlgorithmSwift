@@ -3,7 +3,6 @@ class Solution {
         
         let length = nums.count
         let step = k % length
-        print(length, step)
         
         nums = Array(nums[(length-step)...] + nums[..<(length-step)])    
     }
